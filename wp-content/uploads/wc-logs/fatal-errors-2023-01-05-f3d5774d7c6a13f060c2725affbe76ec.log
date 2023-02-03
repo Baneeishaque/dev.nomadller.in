@@ -1,0 +1,22 @@
+2023-01-05T11:53:40+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\Lab_Data\dev.nomadller.in\wp-includes\Requests\Transport\fsockopen.php on line 126
+
+2023-01-05T11:56:20+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\Lab_Data\dev.nomadller.in\wp-includes\Requests\Transport\fsockopen.php on line 388
+
+2023-01-05T11:59:56+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in C:\Lab_Data\dev.nomadller.in\wp-content\themes\setsail\framework\modules\woocommerce\widgets\woocommerce-dropdown-cart\woocommerce-dropdown-cart.php:37
+Stack trace:
+#0 C:\Lab_Data\dev.nomadller.in\wp-includes\class-wp-widget.php(393): SetSailSelectClassWoocommerceDropdownCart->widget(Array, Array)
+#1 C:\Lab_Data\dev.nomadller.in\wp-includes\widgets.php(2022): WP_Widget->display_callback(Array, Array)
+#2 C:\Lab_Data\dev.nomadller.in\wp-includes\rest-api\endpoints\class-wp-rest-widgets-controller.php(697): wp_render_widget('qodef_woocommer...', 'qodef-header-wi...')
+#3 C:\Lab_Data\dev.nomadller.in\wp-includes\rest-api\endpoints\class-wp-rest-widgets-controller.php(154): WP_REST_Widgets_Controller->prepare_item_for_response(Array, Object(WP_REST_Request))
+#4 C:\Lab_Data\dev.nomadller.in\wp-includes\rest-api\class-wp-rest-server.php(1141): WP_REST_Widgets_Controller->get_items(Object(WP_REST_Request))
+#5 C:\Lab_Data\dev.nomadller.in\wp-includes\rest- in C:\Lab_Data\dev.nomadller.in\wp-content\themes\setsail\framework\modules\woocommerce\widgets\woocommerce-dropdown-cart\woocommerce-dropdown-cart.php on line 37
+
+2023-01-05T12:03:10+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in C:\Lab_Data\dev.nomadller.in\wp-content\themes\setsail\framework\modules\woocommerce\widgets\woocommerce-dropdown-cart\woocommerce-dropdown-cart.php:37
+Stack trace:
+#0 C:\Lab_Data\dev.nomadller.in\wp-includes\class-wp-widget.php(393): SetSailSelectClassWoocommerceDropdownCart->widget(Array, Array)
+#1 C:\Lab_Data\dev.nomadller.in\wp-includes\widgets.php(2022): WP_Widget->display_callback(Array, Array)
+#2 C:\Lab_Data\dev.nomadller.in\wp-includes\rest-api\endpoints\class-wp-rest-widgets-controller.php(697): wp_render_widget('qodef_woocommer...', 'qodef-header-wi...')
+#3 C:\Lab_Data\dev.nomadller.in\wp-includes\rest-api\endpoints\class-wp-rest-widgets-controller.php(154): WP_REST_Widgets_Controller->prepare_item_for_response(Array, Object(WP_REST_Request))
+#4 C:\Lab_Data\dev.nomadller.in\wp-includes\rest-api\class-wp-rest-server.php(1141): WP_REST_Widgets_Controller->get_items(Object(WP_REST_Request))
+#5 C:\Lab_Data\dev.nomadller.in\wp-includes\rest- in C:\Lab_Data\dev.nomadller.in\wp-content\themes\setsail\framework\modules\woocommerce\widgets\woocommerce-dropdown-cart\woocommerce-dropdown-cart.php on line 37
+
